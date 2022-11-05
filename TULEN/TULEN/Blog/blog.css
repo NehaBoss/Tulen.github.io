@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.blog-banner{
+    width: 100%;
+}
+
+.blog-img{
+    height: 250px;
+	overflow: hidden;
+    background-size: cover;
+    position: relative;
+    margin: 2px 0px 5px 0px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+   
+}
+
+.blog-img .blog-text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient( 180deg, transparent, transparent, rgb(0, 0, 0));
+   
+}
+
+
+.blog-text b{
+    color: rgb(14, 114, 148);
+    background-color: white;
+    padding: 1px 15px 1px 15px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-size: 15px;
+}
+
+.blog-text h2,p{
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+
+.blog-text p{
+    position: absolute;
+    bottom: 70px;
+    left: 10px;
+}

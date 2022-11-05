@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.gallery-section{
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	padding-top: 90px;
+}
+
+.gallery-header{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	padding-top: 30px;
+	z-index: 99;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.gallery-header h4{
+	margin: 0;
+	color: #252525;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 1.2;
+	display: inline-block;
+
+}
+
+.gallery-filter{
+	list-style: none;
+	float: right;
+	padding: 0;
+	margin: 0;
+
+}
+
+.gallery-filter li{
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 500;
+	cursor: pointer;
+	color: #252525;
+	margin-left: 20px;
+}
+
+.gallery-filter li:active{
+	color: #2916e0;
+}
+
+.nice-scroll{
+	height: 100%;
+	overflow: hidden;
+	width: 100%;
+
+}
+
+.gallery-warp{
+	width: 100%;
+}
+
+.gallery-item{
+	height: 200px;
+	overflow: hidden;
+	display: inline-block;
+	margin-bottom: 10px;
+    background-size: cover;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+.gallery-item .ig-hover{
+	position: absolute;
+	left: 30px;
+	bottom: 30px;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.gallery-item .ig-hover img{
+    display: inline-block;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 6px;
+    overflow: hidden;
+}
+
+.gallery-item .ig-hover h6{
+	color: white;
+	position: relative;
+	top: 2px;
+	font-weight: 600;
+	display: inline-block;
+	padding-top: 5px;
+}
+
+.gallery-item:hover .ig-hover{
+	opacity: 1;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+
+
+}
+
+@media (max-width: 990px) and (min-width: 768px){
+
+}
+
+
+@media (max-width: 767px) and (min-width: 481px){
+
+}
+
+
+@media (max-width: 480px){
+
+}
